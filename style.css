@@ -1,0 +1,59 @@
+body{
+   background-color: aliceblue;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   /* height: 100vh; */
+}
+.mein-quiz{
+   /* background-color: #fff; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+.quaiz-app h2{
+   text-align: center;
+   padding-top: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+
+}
+.quaiz-app{
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   background-color: #fff;
+   width: 600px;
+   border-radius: 10px;
+}
+.quaiz-app ul{
+   padding: 40px;
+   list-style: none;
+   display: flex;
+   /* padding:  0px; */
+   justify-content: start;
+   align-items: flex-start;
+   flex-direction: column;
+}
+ul li{
+   margin: 10px;
+}
+ul li label{
+   font-size: 20px;
+   cursor: pointer;
+}
+.quaiz-app button{
+   /* margin-top: 10px; */
+   width: 100%;
+   background-color: #03cae4;
+   border: none;
+   outline: none;
+   color: #fff;
+   font-size: 18px;
+   cursor: pointer;
+   padding: 15px 15px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+@media(max-width:400px){
+   .quaiz-app ul{
+      padding: 10px;
+   }
+}
